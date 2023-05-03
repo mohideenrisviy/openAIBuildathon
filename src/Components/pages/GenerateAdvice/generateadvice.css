@@ -1,0 +1,29 @@
+.advice-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;  
+    width:90%;
+    padding:5%
+}
+.four-column-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;  
+    width:100% !important;
+}
+.grid-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width:25% */
+}
+.active{
+    background-color: var(--brand-color-1);
+    border: 2px solid var(--brand-color-2);
+    color:whitesmoke;
+}
+.form-container{
+    width:90%;
+    background-color: var(--brand-color-1);
+    border-radius: 5%;
+    padding: 5%;
+    margin: 5%;
+}

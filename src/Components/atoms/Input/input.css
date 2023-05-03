@@ -1,0 +1,31 @@
+.input-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width:100%;
+    align-items:center;
+    margin-bottom: 5px;
+}
+
+.input-grid >input , .input-grid>select{
+    height:30px;
+    border: 1px solid silver;
+    outline:none
+}
+.input-box{
+    display: flex;
+    height:30px;
+    border: 1px solid silver;
+    outline:none;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+}
+.input-box>div>input, .input-box>div>select{
+    border:none;
+    outline: none;
+}
+.input-box>div>input{
+    width: 75%;
+    height: 28px;
+}

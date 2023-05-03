@@ -1,0 +1,38 @@
+.how-it-works-container{
+    width:90%;
+    padding: 5%;
+    background-color: var(--brand-color-1);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how-it-works-container>h1{
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;  
+    max-width: 70%;  
+
+}
+.grid-item{
+    padding: 20px;
+    border-right: 1px solid var(--brand-color-2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.justify{
+    text-align: justify !important;
+    
+}
+.align-left{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

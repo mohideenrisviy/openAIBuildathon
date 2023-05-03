@@ -1,0 +1,16 @@
+.left-header{
+    float: left;
+}
+.right-header{
+    float:right;
+    
+}
+.header{
+    z-index: 100;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 95%; /* Full width */
+  padding-right: 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

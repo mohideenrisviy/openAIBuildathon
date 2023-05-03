@@ -1,0 +1,31 @@
+.banner{
+    position: relative;
+
+}
+.overlapText{
+    position: absolute;
+    top: 250px;
+    left:5%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.text-shadow{
+    text-shadow: 0 0 3px #45454580, 0 0 5px #45454580 !important;
+}
+.grey{
+    color:#424949
+}
+.banner-container{
+    margin-top: 80px;
+}
+.button{
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    background-color: #FFB14C;
+    margin-top: 20px;
+}
